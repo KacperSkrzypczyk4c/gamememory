@@ -1,0 +1,98 @@
+body
+{
+	margin: 0;
+	background-color: #878787;
+	color: #001560;
+    font-family: 'Lobster', sans-serif;
+    font-size: 28px;
+}
+
+a:link    { color: #001560; text-decoration: none; }
+a:visited { color: #001560; }
+a:active  { color: #001560; }
+a:hover   { color: #f80015; }
+
+h1
+{
+	font-size: 64px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+p
+{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+
+.board
+{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.cardA
+{
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("img/karta.png");
+	border: 4px solid #f80015;
+	border-radius: 4px;
+	cursor: default;
+	filter: brightness(100%);
+	transition: all .3s ease-in-out;
+}
+
+.card
+{
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("img/karta.png");
+	border: 4px solid #001560;
+	border-radius: 4px;
+	cursor: pointer;
+	filter: brightness(70%);
+	transition: all .3s ease-in-out;
+}
+
+.card:hover
+{
+	border: 4px solid #f80015;
+	filter: brightness(100%);
+}
+
+.score
+{
+	margin-top: 5px;
+	letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
